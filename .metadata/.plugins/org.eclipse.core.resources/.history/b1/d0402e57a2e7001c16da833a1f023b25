@@ -1,0 +1,34 @@
+package variable;
+
+public class GlobalLocal {
+	
+	//Anything in the class level has the option of being "static" or "non static"
+	//This means that if the global variable you declare is not static, 
+	//If you want to access a non static variable and you want to bring it in the method
+	//You should always create an object inside the method to grab the global variable
+	//String b below is class level AKA global, and also non-static
+	String b = "";
+	
+	
+	public static void main(String[] args) {
+		//In order to use a variable in different methods, the variable must be global
+		//"Instance Level Variables" means they are inside the class but not within any method;
+		//variables inside these methods are "local variables"
+		//if you have both local and global variables, the code will pick up the local level first
+		
+		
+		int a = 10;
+		String b = "brave";
+		System.out.println(a);
+
+	}
+	
+	
+	
+	public void test() {
+		int a = 11;
+		String b = "boy";
+		System.out.println(a);
+	}
+
+}

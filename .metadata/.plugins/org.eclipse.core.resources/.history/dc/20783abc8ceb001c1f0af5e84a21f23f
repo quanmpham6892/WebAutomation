@@ -1,0 +1,19 @@
+package inherit;
+
+public class E {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void E1() {
+		System.out.println("E1");
+	}
+	
+	public void E2() {
+		System.out.println("E2");
+	}
+
+
+}

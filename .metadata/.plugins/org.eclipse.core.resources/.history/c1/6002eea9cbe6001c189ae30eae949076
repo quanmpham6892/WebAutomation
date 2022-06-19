@@ -1,0 +1,21 @@
+package classThree;
+
+import java.util.Arrays;
+
+public class LearnSplit {
+
+	public static void main(String[] args) {
+		
+		String value = "Quan, AiVan, Khoa, Vy, Linh";
+		
+//		String[] apples = "apple".split("l");
+//		System.out.println(apples);
+		
+		String[] names = value.split(",");
+		System.out.println(names.length);
+		//How do I print out the first name in the value array above
+		Arrays.sort(value);
+		System.out.println(value[0]);
+	}
+
+}

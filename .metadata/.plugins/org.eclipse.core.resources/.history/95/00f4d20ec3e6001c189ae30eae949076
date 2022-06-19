@@ -1,0 +1,18 @@
+package classThree;
+
+public class LearningArray {
+
+	public static void main(String[] args) {
+		//String toCharArray() - converts this string into character array
+		
+		int a = 10;
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

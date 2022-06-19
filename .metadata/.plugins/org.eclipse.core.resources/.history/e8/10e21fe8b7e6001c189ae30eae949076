@@ -1,0 +1,26 @@
+package classThree;
+
+public class StringFunTimes {
+
+	public static void main(String[] args) {
+		
+		//String - Length
+		String a = "apple is great";
+		//.length() method will count the string starting from 1 to the end of the sentence NOTE: including spaces
+		System.out.println(a.length());
+		//alternative way to use .length()
+		System.out.println("apples are disgusting".length());
+		
+		
+		//String - charAt()
+		//Important: when you're counting index, you always start at 0
+		// APPLE -index 0 would be character A in this example
+		//You will need to provide a number in the parentheses
+		//the below example will print out the character at index 1, which is "p"
+		System.out.println(a.charAt(1));
+		
+		
+
+	}
+
+}

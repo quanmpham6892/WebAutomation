@@ -1,0 +1,20 @@
+package inherit;
+
+	//"final" keyword would stop the inheritence.
+	//"final" keyword can be place in front of public class C to stop the inheritence from happening
+	//if we use this keyword, B class would throw an error because it cannot inherit anything from class C. This is an IMPORTANT concept!
+	//Example:
+	// final public class C(){
+	//	}
+
+public class C {
+	
+	public static void C1() {
+		System.out.println("C1");
+	}
+	
+	public void C2() {
+		System.out.println("C2");
+	}
+
+}

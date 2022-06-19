@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;inherit&apos; to &apos;inheritance&apos;&#x0A;- Original project: &apos;javaClassSeven&apos;&#x0A;- Original element: &apos;javaClassSeven/src/inherit&apos;&#x0A;- Renamed element: &apos;javaClassSeven/src/inheritance&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;inherit&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;inherit" name="inheritance" qualified="false" references="true" stamp="1655181730712" textual="false" version="1.0"/>
+</session>

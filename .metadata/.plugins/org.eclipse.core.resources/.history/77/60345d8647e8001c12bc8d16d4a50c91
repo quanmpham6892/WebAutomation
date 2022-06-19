@@ -1,0 +1,41 @@
+package variousConcepts;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestingConcepts {
+	
+	WebDriver driver;
+	String browser = "firefox";
+	
+	public void readConfig() {
+		Properties prop = new Properties();
+		
+		try {
+			//InputStream //BufferedReader //FileReader  //Scanner --These classes can read files
+			InputStream input = new FileInputStream("./src/main/java/config/config.properties");
+			prop.load(input);
+			prop.getProperty("browser");
+			System.out.println(prop.getProperty("browser"));
+			
+		}catch(IOException e) {
+			e.printStackTrace();
+			
+		}
+
+		
+	}
+	
+	public void init() {
+		if(browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver")
+		}
+	}
+	
+	
+
+}

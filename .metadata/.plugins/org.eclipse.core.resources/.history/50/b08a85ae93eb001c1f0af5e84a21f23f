@@ -1,0 +1,26 @@
+package inherit;
+
+public class A extends B {
+		//In this class, A class inherit from B class; A is the sub class which is the child; B is the super class which is the parent class
+
+	public static void main(String[] args) {
+		//Object Oriented Programming
+		//Inheritance(Extends): Parent-child relationship between classes
+			//if the child class inherit from the parent, whatever that child has will have in addition to what the parent has
+			//if the child were to inherit from the parent, the keyword to go from the child class to the parent class is call "Extends"
+			//extends keyword allow you to inherit from parent class
+		//Parent is known as the "Super" class; the child is the "Sub" class
+		//In inheritance rule, your sub class to the super class; meaning the child cannot say I'm going to inherit from multiple parents
+			//A cannot extend to B, and extend to C, and extend to D at the same time; In this example, you can only choose one
+
+	}
+	
+	public static void A1() {
+		System.out.println("A1");
+	}
+	
+	public void A2() {
+		System.out.println("A2");
+	}
+
+}

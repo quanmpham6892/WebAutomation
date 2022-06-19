@@ -1,0 +1,36 @@
+package conditions;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		
+		System.out.println("What day is it?");
+		Scanner ui = new Scanner(System.in);
+		String day = ui.next();
+		
+		if(day.equalsIgnoreCase("monday")) {
+			System.out.println("Go to work 1");
+		}else if(day.equalsIgnoreCase("tuesday")) {
+			System.out.println("Go to work 2");
+		}else if(day.equalsIgnoreCase("wednesday")) {
+			System.out.println("Go to work 3");
+		}else if(day.equalsIgnoreCase("thursday")) {
+			System.out.println("Go to work 4");
+		}else if(day.equalsIgnoreCase("friday")) {
+			System.out.println("Go to work 5");
+		}else if(day.equalsIgnoreCase("saturday")) {
+			System.out.println("Go to work 6");
+		}else if(day.equalsIgnoreCase("sunday")){
+			System.out.println("Go to church");
+		}else {
+			System.out.println("Thats not a day, stupid. Try again");
+		}
+		
+		
+		
+		
+	}
+
+}

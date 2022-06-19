@@ -1,0 +1,23 @@
+package classThree;
+
+public class LearningArray {
+
+	public static void main(String[] args) {
+		//String toCharArray() - converts this string into character array
+		
+		int a = 10;
+		
+		
+		//Array
+		//Formula
+			//Method 1: You know all the values in your array?
+		
+			//Method 2: You do know your values, but you don't know how many?
+		
+		
+		
+		
+
+	}
+
+}

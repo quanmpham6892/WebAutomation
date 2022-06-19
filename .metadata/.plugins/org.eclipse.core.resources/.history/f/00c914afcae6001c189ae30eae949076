@@ -1,0 +1,15 @@
+package classThree;
+
+public class LearnSplit {
+
+	public static void main(String[] args) {
+		
+		String value = "Quan, AiVan, Khoa, Vy, Linh";
+		
+		"apple".split("l");
+		
+		value.split(",");
+		System.out.println(value.split(","));
+	}
+
+}

@@ -1,0 +1,33 @@
+package classThree;
+
+public class LearningArray {
+
+	public static void main(String[] args) {
+		//String toCharArray() - converts this string into character array
+		
+		int a = 10;
+		
+		
+		//Array
+		//Formula
+		//Method 1: You know all the values in your array?
+		//Lets say I have a java class, and I will let you register until the 16th of May. After that date, you will know all the people that have enrolled in your class.
+			//DataType[] ArrayName = {value1, value,2, value3, value4};
+		//NOTE: Once you have declare this
+				//Index always starts at 0
+				//Length will start at 1
+		String[] students = {"Qaun","Aivan","Khoa","Linh","Vy","Quan","Quan"};
+		int[] grade = {56,73,85,55,99};
+		
+		System.out.println(students.length);
+		System.out.println(students[2]);
+		
+		
+		//Method 2: You do know your values, but you don't know how many?
+		//DataType[] ArrayName = new DataType[MaxItemCount];
+		
+		
+
+	}
+
+}
